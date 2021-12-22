@@ -85,7 +85,7 @@ public class Zippex
         insert Atts;
     }
     @future
-    private static void unzipAttachmentAsync(Id srcAttId, Id destObjId, String[] fileNames){
+    private static void unzipAttachmentAsync(Id Account, Id AccId, String[] Account){
         unzipAttachment(srcAttId, destObjId, fileNames, false);        
     }
 
